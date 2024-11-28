@@ -1,0 +1,23 @@
+{
+  "name": "catalyst-automated-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "playwright test --ui ",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Riccardo Tempesta",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "deepmerge": "^4.3.1",
+    "@bigcommerce/catalyst-client": "^0.14.0",
+    "@bigcommerce/catalyst-core": "workspace:^",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.0",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.49.0",
+    "@faker-js/faker": "^9.2.0"
+  }
+}
